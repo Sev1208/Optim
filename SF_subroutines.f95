@@ -190,6 +190,16 @@ do i=1,ntype
   endif
 enddo
 ndt=n-1
+n=1
+do i=1,ntype
+  if (vdata(1,:) .eq. i) then
+    if (vdata(2,n) .ne. vdata(2,n+1)) then
+	  ts=ts+1
+	endif
+	n=n+1
+  endif
+enddo
+write (*,*)	 ts
 return
 end
 !
