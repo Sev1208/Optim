@@ -1,0 +1,7 @@
+1              nbrestart
+1               nbext1 (2nd layer)
+1000               nbbvp  (1st layer)
+10              nbgrad (couche interne; ici gradient conjugué)
+1 1.e-4         ifd,epsfd (ifd=1 FD , =0 grad from  funcpex.f)
+1.e3            rho (initialisation pas de descente)
+1.e-6           eps convergence global

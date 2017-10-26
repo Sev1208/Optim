@@ -1,0 +1,16 @@
+-15		0		0		0	ahorisar
+19.5	0		0		0	avertsar
+3.e10	0		0		0	mu
+0.25 	0.1		0.4		0	poiss
+1		0		0		0	nsource
+2000	1000	2500	0	xs
+3000	1000	4000	0	ys
+90		0		0		0	azimuth in degrees (90=Nord)
+2400.	1800	2500	0	depth
+90.		0		90		0	dip
+300.	0.		1000	1	length
+300.	0.		1000	1	width
+0.0		0		0		0	disl type strike (DISL1)
+0.0		0		0		0	disl type dip (DISL2)
+1.0		0		0		0	disl type tensile (DISL3)
+END

@@ -1,0 +1,5 @@
+gfortran -O -c Synthetic_data.f95 -o synth.o
+gfortran -O -c SF_Synth_sub.f95 -o sub1.o
+gfortran -O -c dc3d.f -o sub2.o
+gfortran -O synth.o sub1.o sub2.o -o synth.exe
+

@@ -1,0 +1,6 @@
+gfortran -O -c bmo.f -o bmo.o
+gfortran -O -c bmo_user.f95 -o bmo_user.o
+gfortran -O -c SF_subroutines.f95 -o sub1.o
+gfortran -O -c dc3d.f -o sub2.o
+gfortran -O bmo.o bmo_user.o sub1.o sub2.o -o bmo.exe
+
